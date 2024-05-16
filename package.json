@@ -1,5 +1,6 @@
 {
   "name": "tegel-modal-bug-report",
+  "homepage": "https://quaspar.github.io/tegel-modal-bug-report",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
