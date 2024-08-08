@@ -11,10 +11,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <TdsModal 
-        header="Modal header"
-        show
-        size='md'
-        onTdsClose={e => e.preventDefault()}
+          header="Modal header"
+          show
+          size='md'
+          onTdsClose={
+            e => e.preventDefault();
+            console.log("event prevented: ", e);
+          }
         >
             <span slot="body">
     “I beg your pardon, Dr. Lanyon,” he replied civilly enough. “What you say is very well founded;
