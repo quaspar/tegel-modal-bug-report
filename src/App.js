@@ -14,6 +14,7 @@ function App() {
         header="Modal header"
         show
         size='md'
+        onTdsClose={e => e.preventDefault()}
         >
             <span slot="body">
     “I beg your pardon, Dr. Lanyon,” he replied civilly enough. “What you say is very well founded;
